@@ -1,9 +1,16 @@
-pandas
-numpy
-matplotlib
-seaborn
-plotly
-streamlit
-ccxt
-pycoingecko
-requests
+# Python / Jupyter
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Environment & secrets
+.env
+.venv/
+venv/
+
+# macOS / Windows junk
+.DS_Store
+Thumbs.db
