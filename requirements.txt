@@ -1,12 +1,20 @@
-# Python / Jupyter
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.ipynb_checkpoints/
-*.ipynb_checkpoints
+# Core data processing
+pandas>=2.0.0
+numpy>=1.24.0
 
-# Environment & secrets
-.env
-.venv/
-venv/
+# API & data fetching
+ccxt>=4.0.0                # Binance price/volume data
+requests>=2.28.0           # Blockchain.com, CoinGecko, etc.
+pycoingecko>=3.0.0         # CoinGecko metadata/supply
+
+# Visualization
+plotly>=5.15.0
+streamlit>=1.30.0
+
+# Jupyter & EDA helpers (optional but recommended)
+matplotlib>=3.7.0
+seaborn>=0.12.0
+jupyter>=1.0.0             # if running notebooks outside VS Code
+
+# Environment variables (for any future API keys)
+python-dotenv>=1.0.0
